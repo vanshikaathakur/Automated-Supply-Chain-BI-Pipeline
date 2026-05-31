@@ -1,4 +1,10 @@
-# Automated-Supply-Chain-BI-Pipeline
+# 🚚 Automated Supply Chain Analytics Engine & Executive BI Pipeline
+
+An end-to-end data engineering and business intelligence (BI) pipeline that extracts transactional supply chain data from a relational **PostgreSQL** database, processes critical warehouse/logistical KPIs using optimized type-casted SQL queries, and programmatically compiles a highly styled, executive-ready multi-sheet report using Python.
+
+---
+
+## 🛠️ System Architecture & Data Flow
 
 1. **Extraction:** Establishes a secure database link via `SQLAlchemy`, handling special-character credential encoding safely.
 2. **Transformation:** Rewrites legacy textual date-logs into true timestamps directly in the PostgreSQL engine to run historical operational drift formulas.
